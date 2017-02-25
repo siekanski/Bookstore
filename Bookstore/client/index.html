@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bookstore</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/pka.jpg" alt="" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container wrapper">
+            <div class="row">
+                <div class="col-lg-offset-2 col-md-offset-2 col-lg-8 col-md-8">
+                    <div id="add-form">
+                        <form id="createform">
+                            <div class="form-group">
+                                <label for="nameInput">Name</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="descriptionInput">Description</label>
+                                <input type="text" class="form-control" id="descriptionInput" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="authorInput">Author</label>
+                                <input type="text" class="form-control" id="authorInput" placeholder="">
+                            </div>
+                            <button type="" class="btn btn-success"><span class='glyphicon glyphicon-plus'></span> Add book</button>
+                        </form>
+                    </div>
+                    <hr>
+                    <h2>Book list</h2>
+                    <div id="books">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
